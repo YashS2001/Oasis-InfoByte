@@ -1,0 +1,53 @@
+
+ *{
+     margin: 0;
+     padding: 0;
+     font-family: 'Courier New', Courier, monospace;
+ }
+ header{
+     background-image: url(../img/WallpaperDog-16989078.jpg);
+     height: 100vh;
+     background-size: cover;
+     background-position: center;
+     
+ }
+ ul{
+     float: right;
+     list-style-type: none;
+     margin-top: 25px;
+ }
+ ul li{
+     display: inline;
+ }
+ ul li a{
+     text-decoration: none;
+     color: white;
+     padding: 5px 20px;
+     border: 1px solid transparent;
+     transition: 0.6s ease;
+ }
+ ul li a:hover{
+     background-color: white;
+     color: red;
+ }
+ .text{
+     position: absolute;
+     width: 100%;
+     top: 60px;
+     left: 450px;
+     color: white;
+ }
+ .text h1{
+     font: bold;
+ }
+ .text h2{
+     color: violet;
+ }
+ .text p{
+     text-align: left;
+     margin-top: 200px;
+     right: -6000px;
+     color: tomato;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     left: 100px;
+ }
